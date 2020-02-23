@@ -15,7 +15,7 @@ totalTaken = 0     # Taken units accumulator
 print("This program will calulate your; total units taken,\ntotal earned grade points and GPA.\n")
 print("Grades: A = 4, B = 3, C = 2, D = 1, F = 0\n")    # Grade point equivalent for grade earned
 
-#* Input Validation
+#*  Input Validation
 while True: #While loop user input validation
     temp = input("Input the number of classes taken: ") # user input for number of classes stored in temp var
     try:    #try
