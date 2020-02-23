@@ -30,7 +30,7 @@ for i in range(0, nClasses): # for loop in range of classes taken
 
     #* Input Validation
     while True: #While loop user input validation
-        temp = input("Enter Units taken: ") # user input stored in val
+        temp = input("Enter Units taken: ") # user input stored in temp
         try:    #try
             n = int(temp)   #if temp is int store in n
             break;  #break loop
